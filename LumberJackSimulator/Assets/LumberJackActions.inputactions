@@ -1,0 +1,90 @@
+{
+    "name": "LumberJackActions",
+    "maps": [
+        {
+            "name": "Lumber",
+            "id": "195e990e-7f6e-463f-a8b8-e7b8111c3f46",
+            "actions": [
+                {
+                    "name": "LeftTrigger",
+                    "type": "Value",
+                    "id": "689cf417-f987-4162-8419-ae9e6d082076",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightTrigger",
+                    "type": "Value",
+                    "id": "667a7c35-dfeb-4d8c-a65d-b8b75b8b2bd1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftGrip",
+                    "type": "Value",
+                    "id": "f57d7041-6950-43b2-9be4-960c5ad5fb27",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightGrip",
+                    "type": "Value",
+                    "id": "1823e8b9-6afb-4157-a684-fb4f229a434b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bfc45d67-4eb5-493c-bae4-bb8ce3ca3090",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1852fdb2-9a98-4865-9f7e-e5055df84a3e",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3e07e98-1e4d-434c-859d-1e4875c4acfb",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e35a1039-94bb-4b9d-a946-10564d449f39",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
