@@ -96,11 +96,6 @@ namespace Parabox.CSG
             Node b = new Node(csg_model_b.ToPolygons());
         
             List<Polygon> polygons = Node.Subtract(a, b).AllPolygons();
-        
-            foreach(var item in polygons)
-            {
-                Debug.Log(item);
-            }
 
             return new Model(polygons);
         }
