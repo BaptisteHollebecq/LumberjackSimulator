@@ -20,20 +20,21 @@ public class test : MonoBehaviour
         //// Perform boolean operation
         Model result = CSG.Subtract(test1, test2);
 
-        foreach (var item in result.indices)
+/*        foreach (var item in result.indices)
         {
             foreach(int i in item)
             {
                 Debug.Log(i);
             }
             Debug.Log("NEW LIST");
-        }
+        }*/
 
         // // Create a gameObject to render the result
         var composite = new GameObject();
         composite.AddComponent<MeshFilter>().sharedMesh = result.mesh;
         composite.AddComponent<MeshRenderer>().sharedMaterials = result.materials.ToArray();
-
+        composite.AddComponent<MeshCollider>();
+        composite.AddComponent<SetVerticesNeighbours>();
 
     }
 
