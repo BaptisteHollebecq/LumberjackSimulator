@@ -6,8 +6,6 @@ public class Tree : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-
-
         if (collision.gameObject.TryGetComponent<Blade>(out Blade b))
         {
             Debug.Log("Tree : Collision with => " + collision.gameObject.name);
