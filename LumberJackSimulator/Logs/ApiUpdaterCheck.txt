@@ -205,3 +205,23 @@ candidates check time : 64ms
 >>>>>>> Stashed changes
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 15/12/2021 12:04:19 : Starting C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 51,0119ms
+moved types parse time: 42ms
+candidates parse time : 2ms
+C# parse time         : 149ms
+candidates check time : 22ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 15/12/2021 12:05:40 : Starting C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 47,0099ms
+moved types parse time: 43ms
+candidates parse time : 8ms
+C# parse time         : 162ms
+candidates check time : 22ms
+console write time    : 0ms
+

@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738720219217666
-    m_Hash: 3376627223
+      ticks: 637728441851127433
+    m_Hash: 2381523951
   m_LockFileStatus:
     m_FilePath: C:/Users/bhollebecq/Documents/GitHub/LumberjackSimulator/LumberJackSimulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      ticks: 637738753388935726
-    m_Hash: 672772084
-=======
-      ticks: 637751562629496311
-    m_Hash: 4213898537
->>>>>>> Stashed changes
-=======
-      ticks: 637751562629496311
-    m_Hash: 4213898537
->>>>>>> Stashed changes
+      ticks: 637751628118835944
+    m_Hash: 1166362201
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/bhollebecq/Documents/GitHub/LumberjackSimulator/LumberJackSimulator/Packages/pb_CSG-master/package.json:
@@ -33,8 +23,8 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637751560838328231
-      m_Hash: 4159793352
+        ticks: 637751628121396540
+      m_Hash: 1416905836
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
