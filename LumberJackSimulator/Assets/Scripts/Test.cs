@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
 public class test : MonoBehaviour
 {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     public GameObject test1;
     public GameObject test2;
@@ -42,6 +46,11 @@ public class test : MonoBehaviour
 
     }
 
+=======
+    public GameObject a;
+    public GameObject b;
+
+>>>>>>> Stashed changes
 =======
     public GameObject a;
     public GameObject b;

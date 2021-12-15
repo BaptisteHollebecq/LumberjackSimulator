@@ -14,8 +14,13 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 637738753388935726
     m_Hash: 672772084
+=======
+      ticks: 637751562629496311
+    m_Hash: 4213898537
+>>>>>>> Stashed changes
 =======
       ticks: 637751562629496311
     m_Hash: 4213898537

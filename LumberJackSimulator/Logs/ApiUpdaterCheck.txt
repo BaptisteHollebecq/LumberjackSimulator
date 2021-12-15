@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [api-updater (non-obsolete-error-filter)] 30/11/2021 13:30:19 : Starting C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
@@ -148,6 +149,8 @@ candidates parse time : 16ms
 C# parse time         : 133ms
 candidates check time : 62ms
 =======
+=======
+>>>>>>> Stashed changes
 [api-updater (non-obsolete-error-filter)] 15/12/2021 10:13:35 : Starting C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
@@ -196,6 +199,9 @@ moved types parse time: 42ms
 candidates parse time : 11ms
 C# parse time         : 137ms
 candidates check time : 64ms
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 console write time    : 0ms
 
