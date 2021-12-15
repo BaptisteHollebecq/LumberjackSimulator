@@ -12,7 +12,7 @@ public class Blade : MonoBehaviour
 
     private void Start()
     {
-  
+
     }
 
     private void Update()
