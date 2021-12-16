@@ -6,9 +6,11 @@ public class Tree : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.TryGetComponent<Blade>(out Blade b))
+
+        Transform blade = collision.transform.GetChild(0);
+        if (blade.TryGetComponent<Blade>(out Blade b))
         {
-            Debug.Log("Tree : Collision with => " + collision.gameObject.name);
+            //Debug.Log("Tree : Collision with => " + collision.gameObject.name);
             b.Cut(gameObject);
         }
     }

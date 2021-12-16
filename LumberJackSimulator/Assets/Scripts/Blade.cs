@@ -50,9 +50,18 @@ public class Blade : MonoBehaviour
             // Create a gameObject to render the result
             var composite = new GameObject();
 
-            composite.AddComponent<MeshFilter>().sharedMesh = result.mesh;
+            Mesh m = result.mesh;
+            m.RecalculateBounds();
+            m.RecalculateNormals();
+            m.Optimize();
+
+            composite.AddComponent<MeshFilter>().sharedMesh = m;
+
             composite.AddComponent<MeshRenderer>().sharedMaterials = result.materials.ToArray();
             composite.AddComponent<MeshCollider>();
+            Rigidbody rb = composite.AddComponent<Rigidbody>();
+            rb.useGravity = false;
+            rb.isKinematic = true;
 
             composite.layer = LayerMask.NameToLayer("Tree");
 
